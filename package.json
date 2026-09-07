@@ -1,0 +1,16 @@
+{
+  "name": "innom-sdk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Innom SDK — privacy-preserving age assurance for the web. Prove age, never identity.",
+  "packageManager": "pnpm@10.17.1",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "test": "pnpm -r test",
+    "typecheck": "pnpm -r typecheck"
+  }
+}
