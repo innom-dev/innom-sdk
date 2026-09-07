@@ -4,6 +4,8 @@
   "type": "module",
   "license": "MIT",
   "description": "Privacy-preserving age assurance for the web: client ceremony SDK and offline server-side token verification. Prove age, never identity.",
+  "repository": { "type": "git", "url": "https://github.com/innom-dev/innom-sdk.git", "directory": "packages/sdk" },
+  "publishConfig": { "access": "public" },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",

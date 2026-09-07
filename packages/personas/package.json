@@ -4,6 +4,8 @@
   "type": "module",
   "license": "MIT",
   "description": "Demo device-capability personas for the Innom age-assurance SDK.",
+  "repository": { "type": "git", "url": "https://github.com/innom-dev/innom-sdk.git", "directory": "packages/personas" },
+  "publishConfig": { "access": "public" },
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
